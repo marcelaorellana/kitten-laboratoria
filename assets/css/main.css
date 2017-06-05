@@ -1,0 +1,30 @@
+body{
+	background-image: url('../img/dawn.png');
+}
+img{
+	display: block;
+	margin: 0 auto;
+}
+.gatito{
+	display: flex;
+	justify-content: center;
+}
+picture{
+	align-self: flex-end;
+}
+@media (min-width: 750px){
+	[class*="col-"]{
+		width: 100%;
+	}
+	body{
+		background-image: url('../img/maxresdefault.jpg');
+	}
+}
+@media (min-width: 450px) and (max-width: 749px){
+	[class*="col-"]{
+		width: 100%;
+	}
+	body{
+		background-image: url('../img/Landscape.jpg');
+	}
+}
